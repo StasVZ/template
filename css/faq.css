@@ -1,0 +1,141 @@
+.faq{
+  background-image: url(../img/background-faq.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 1600px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.faq__title{
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 17px;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.faq__text-form{
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
+
+.faq__form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 21px;
+  margin-bottom: 50px;
+}
+
+.faq__label:last-of-type{
+  margin-bottom: 30px;
+}
+
+.faq__button{
+font-weight: 500;
+font-size: 20px;
+text-align: center;
+color: #fff;
+border-radius: 50px;
+box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
+background: #15a9cb;
+padding: 11px 38px;
+}
+
+.faq__text-pi{
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.faq__link-pi{
+  color: #4a76a8;
+  text-decoration: underline;
+}
+
+.faq__input{
+  border: 1.38px solid #fff;
+  border-radius: 50px;
+  width: 423px;
+  height: 44px;
+  background: rgba(47, 50, 75, 0.85);
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width:350px) and (max-width:1024px){
+  .faq{
+    padding-bottom: 56px;
+  }
+  .faq__title{
+    font-size: 32px;
+    margin-bottom: 16px;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .faq__text-form{
+    font-size: 20px;
+  }
+  .faq__form{
+    margin-bottom: 30px;
+  }
+  .faq__text-pi{
+    font-size: 17px;
+  }
+  .faq__input{
+    border: 2px solid #fff;
+    width: 377px;
+    height: 39px;
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:350px){
+  .faq{
+    min-width: 320px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+  }
+
+  .faq__title{
+  font-weight: 700;
+  font-size: 20px;
+  }
+
+  .faq__text-form{
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .faq__input{
+    border: 1px solid #fff;
+    width: 289px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .faq__button{
+  font-size: 16px;
+  width: 174px;
+  height: 38px;
+  box-shadow: 0 3px 17px 0 rgba(21, 169, 203, 0.3);
+  padding: 10px 26px;
+  }
+
+  .faq__text-pi{
+    font-size: 11px;
+  }
+}

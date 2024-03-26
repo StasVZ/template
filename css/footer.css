@@ -1,7 +1,7 @@
 .footer {
   background-color: #2f324b;
   min-width:1600px;
-  padding-top: 45px;
+  padding-top: 48px;
   padding-bottom: 45px;
 }
 
@@ -16,6 +16,7 @@
   max-width: 215px;
   gap: 18px;
   align-items: center;
+  padding-top: 1px;
 }
 
 .footer__text, .made__in {
@@ -23,6 +24,13 @@
   font-size: 12px;
   line-height: 141%;
   color: #fff;
+}
+
+.tel__number{
+  font-size: 24px;
+}
+.made__in{
+  padding-right: 7px;
 }
 
 @media (min-width:350px) and (max-width:1024px){

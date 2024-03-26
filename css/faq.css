@@ -12,7 +12,8 @@
   font-size: 35px;
   text-align: center;
   color: #fff;
-  margin-bottom: 17px;
+  margin-bottom: 20px;
+  padding-right: 24px;
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -21,7 +22,7 @@
   font-size: 22px;
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 50px;
+  margin-bottom: 52px;
 }
 
 .faq__form{

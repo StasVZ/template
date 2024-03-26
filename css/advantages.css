@@ -28,9 +28,9 @@
   content: '';
   position: absolute;
   top:50%;
-  left:482px;
+  left:505px;
   width: 43px;
-  height: 2px;
+  height: 3px;
   background: #383a4c;
 }
 
@@ -38,9 +38,9 @@
   content: '';
   position: absolute;
   top:50%;
-  right:482px;
+  right:505px;
   width: 43px;
-  height: 2px;
+  height: 3px;
   background: #383a4c;
 }
 
@@ -52,7 +52,7 @@
   text-align: center;
   color: #383a4c;
   padding: 0 237px;
-  margin-bottom: 50px;
+  margin-bottom: 57px;
 }
 
 .advantages__list{
@@ -75,7 +75,7 @@
   line-height: 141%;
   text-align: center;
   color: #fff;
-  top:25px;
+  top:30px;
   left:82px;
   counter-increment: count;
 }
@@ -96,8 +96,8 @@
   width: 122px;
   height: 122px;
   background-color: #23c7ec;
-  top: 0;
-  left: 38px;
+  top: 2px;
+  left: 37px;
   border-radius: 50%;
 }
 
